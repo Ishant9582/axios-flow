@@ -38,6 +38,11 @@ Axios resolves the original promise and provides a response object that includes
 data → the actual parsed JSON data
 
 status → the HTTP status code (e.g., 200 OK)
+AGR DEFAULT NHI CHAHTE AUR KHUD KA BHEJNA CHAHTE USE BELOW ONE
+res.status(201).json({
+  message: 'Post created successfully',
+  post: newPost
+});
 
 headers, config, etc. → meta-information about the request/response
 
